@@ -1,0 +1,188 @@
+/*<img class="icon icon-instagram">
+* metodos de utilizando passar o parametro icon
+*
+*
+*/
+
+.icon{
+  background-repeat:no-repeat;
+  background-position: center;
+  background-color: transparent;
+  display: inline-block;
+  font-style:normal;
+  font-variant:normal;
+  text-rendering:auto;
+  line-height:1;
+  background-size: 100% 100%;
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+
+.icon-withtext{
+  justify-items: center;
+  align-content: center;
+}
+
+.icon-facebook{
+  background-image: url('image/icon-facebook.png');
+}
+.icon-instagram{
+  background-image: url('image/icon-instagram.png');
+}
+.icon-gmail{
+  background-image: url('image/icon-gmail.png');
+}
+.icon-copy{
+  background-image: url('image/icon-copy.png');
+}
+
+.icon-email{
+  background-image: url('image/icon-email.png');
+}
+
+/*https://www.iconfinder.com/icons/299040/star_icon*/
+.icon-star{
+  background-image: url('image/icon-star.png');
+}
+/*
+Arrow in slide
+ */
+
+.icon-items-arrow{
+  display: block;
+  position: absolute;
+  padding: 1%;
+  width: 100%;
+  top: 40%;
+}
+
+.icon-arrow-left{
+  float: left;
+  clear: both;
+  cursor: pointer;
+  background-image: url('image/arrow-left.png');
+}
+.icon-arrow-right{
+  float: right;
+  cursor: pointer;
+  background-image: url('image/arrow-right.png');
+}
+
+.icon-arrow-right,.icon-arrow-left{
+    background-color: #bfbfbf;
+    opacity: 0.7;
+}
+
+.icon-arrow-right:hover,.icon-arrow-left:hover{
+    opacity: 1;
+}
+
+.icon-arrow-right:active,.icon-arrow-left:active{
+    background-color: #666666;
+}
+
+/*
+end arrow in slide
+ */
+
+
+/*Toda a parte de animação estara abaixo
+*sempre que utilizar alguma animação deve ser utilizado
+*o icon-animate || icon-animate-slow
+*para formatar a transição caso crie a propria transição
+*não precisa utilizar
+*
+*/
+
+ .icon-animate{
+  transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+
+/*Utilizando o icon-animate-infinite
+* ira ser linear e infinito
+*/
+.icon-animate-infinite{
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/*Utilizando quando quiser que a animação seja um pouco mais lenta
+*/
+.icon-animate-slow{
+  transition: all 2s ease 0s;
+	-moz-transition: all 2s ease 0s;
+	-webkit-transition: all 2s ease 0s;
+	-ms-transition: all 2s ease 0s;
+  -o-transition: all 2s ease 0s;
+}
+
+.icon-rotate-hover:hover{
+  transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+/*Keyframes da animação chamada rotate estão abaixo*/
+.icon-rotate{
+  animation-name: rotate;
+  animation-duration: 2s;
+}
+
+@keyframes rotate{
+  to{transform: rotate(360deg);}
+  /*
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);*/
+}
+
+@-webkit-keyframes rotate{
+  to{transform: rotate(360deg);}
+}
+/*Fim das animações do rotate*/
+
+
+/*Animações de chacoalhar*/
+.icon-shake{
+  animation-name: shake;
+  animation-duration: 0.2s;
+  animation-iteration-count: 3;
+}
+
+.icon-shake-hover:hover{
+  animation-name: shake;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+}
+
+@keyframes shake{
+  20%{transform:rotate(20deg)}
+  50%{transform:rotate(0deg)}
+  75%{transform:rotate(-20deg)}
+  100%{transform:rotate(0deg)}
+}
+/*Fim das animações de chacoalhar*/
+
+.icon-translate-hover:hover{
+  transition: all 2s ease 0s;
+  transform: rotateY(360deg); /* Standard syntax */
+}
+
+.icon-translate{
+  animation-name: translateY;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes translateY{
+  to{transform: rotateY(360deg);}
+}

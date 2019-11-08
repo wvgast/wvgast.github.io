@@ -1,0 +1,23 @@
+body{
+    background-color: tomato;
+
+}
+
+#resumoprojetos{
+    background-color: darkmagenta;
+    color: white;
+}
+
+.font-helvetica{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-low-size{
+    font-size: 1rem;
+}
+.card{
+    padding: 3px;
+}
+.gt-opacity:hover{
+    opacity: 0.7;
+}
