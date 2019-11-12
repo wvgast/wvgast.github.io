@@ -24,6 +24,10 @@
   align-content: center;
 }
 
+.icon-phone{
+  background-image: url('image/icon-phone.png');
+}
+
 .icon-facebook{
   background-image: url('image/icon-facebook.png');
 }
@@ -45,6 +49,136 @@
 .icon-star{
   background-image: url('image/icon-star.png');
 }
+
+/*https://www.iconfinder.com/icons/384897/bell_decoration_ring_icon*/
+.icon-bell{
+  background-image: url('image/icon-bell.png');
+}
+
+/*https://www.iconfinder.com/icons/3838430/engine_gear_setting_icon*/
+.icon-gear{
+  background-image: url('iamge/icon-gear.png');
+}
+
+/**/
+.icon-house{
+  background-image: url('image/icon-house.png');
+}
+
+/*https://www.iconfinder.com/icons/3940044/dig_shovel_icon*/
+.icon-shovel{
+  background-image: url('image/icon-shovel.png');
+}
+
+/*https://www.iconfinder.com/icons/410519/linkedin_social_icon*/
+.icon-linkedin{
+  background-image: url('image/icon-linkedin.png');
+}
+
+/*https://www.iconfinder.com/icons/293686/loading_icon*/
+.icon-loading-ios{
+  background-image: url("image/icon-loading-ios.png");
+}
+
+/*https://www.iconfinder.com/icons/5298720/buffering_loading_icon*/
+.icon-loading{
+  background-image: url('image/icon-loading.png');
+}
+
+.icon-excel{
+  background-image: url('image/icon-excel.png');
+}
+
+/*https://www.iconfinder.com/icons/2993664/brand_brands_logo_logos_word_icon*/
+.icon-word{
+  background-image: url('image/icon-word.png');
+}
+
+/**/
+.icon-powerpoint{
+  background-image: url('image/icon-powerpoint.png');
+}
+
+/*https://www.iconfinder.com/icons/2993670/brand_brands_logo_logos_paypal_icon*/
+.icon-paypal{
+  background-image: url('image/icon-paypal.png');
+}
+
+.icon-playstore{
+  background-image: url('image/icon-playstore.png');
+}
+
+/*https://www.iconfinder.com/icons/2799204/business_management_office_setting_success_icon*/
+.icon-gear-checked{
+  background-image: url('image/icon-gear-checked.png');
+}
+
+/*https://www.iconfinder.com/icons/3592826/employee_human_member_office_remove_remove_user_user_icon*/
+.icon-human-comercial{
+  background-image: url('image/icon-human-comercial.png');
+}
+
+/*https://www.iconfinder.com/icons/3592847/general_office_repair_repair_tool_screwdriver_tools_wrench_icon*/
+.icon-repair{
+  background-image: url('image/icon-repair.png');
+}
+
+/*https://www.iconfinder.com/icons/3592864/general_graph_increase_office_rise_statistics_success_icon*/
+.icon-graphpanel{
+  background-image: url('image/icon-graphpanel.png');
+}
+
+/*https://www.iconfinder.com/icons/3592819/general_graph_office_overview_part_pie_chart_portion_icon*/
+.icon-graphpizza{
+  background-image: url('image/icon-graphpizza.png');
+}
+
+/*https://www.iconfinder.com/icons/3605332/construction_engineer_hard_hat_helmet_protection_safety_icon*/
+.icon-helmet{
+  background-image: url('image/icon-helmet.png');
+}
+
+/*https://www.iconfinder.com/icons/3605317/centimeter_geometric_measure_measurement_ruler_rulers_scale_icon*/
+.icon-measure{
+  background-image: url('image/icon-measure.png');
+}
+
+/*https://www.iconfinder.com/icons/3440894/add_additional_document_file_filetype_paper_icon*/
+.icon-document-add{
+  background-image: url('image/icon-document-add.png');
+}
+
+/*https://www.iconfinder.com/icons/3440879/delete_document_file_filetype_paper_remove_icon*/
+.icon-document-remove{
+  background-image: url('image/icon-document-remove.png');
+}
+
+
+.icon-marketing-cloud{
+  background-image: url('image/icon-marketing-cloud.png');
+}
+
+.icon-web-analit{
+  background-image: url('image/icon-web-analit.png');
+}
+
+/*https://www.iconfinder.com/icons/2944874/alerts_bell_interface_smart_sound_icon*/
+.icon-bell-alert{
+  background-image: url('image/icon-bell-alert.png');
+}
+
+.icon-graphmoney{
+  background-image: url('image/icon-graph-money.png');
+}
+
+.icon-coin-dolar{
+  background-image: url('image/icon-coin-dolar.png');
+}
+
+.icon-profile{
+  background-image: url('image/icon-profile.png');
+}
+
 /*
 Arrow in slide
  */
