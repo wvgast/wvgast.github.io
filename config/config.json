@@ -1,0 +1,23 @@
+{
+    "projetos": {
+        "front-end": [{
+                "message": "Extensão do google chrome que gerencia link locais e url",
+                "image": "image/front-end/link-manager.PNG"
+            },
+            {
+                "message": "Mercado onde serve para mostrar as ofertas ou até mesmo realizar reserva",
+                "slide": true,
+                "image": "image/front-end/armazem-inicial.png",
+                "imageSlide": [
+                    "image/front-end/armazem-inicial.png",
+                    "image/front-end/armazem-segundo.png",
+                    "image/front-end/armazem-footer.png"
+                ]
+            }, {
+                "message": "Site de reforma e construção de gesso deck entre outras modalidades",
+                "slide": true,
+                "image": "image/front-end/roberto-inicial.png"
+            }
+        ]
+    }
+}
